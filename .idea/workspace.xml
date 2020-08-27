@@ -11,7 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="863e27cb-60e6-4a8f-b5e2-f3b25e203635" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/range.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unique_long.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -192,7 +192,7 @@
       <workItem from="1598154651961" duration="1241000" />
       <workItem from="1598264757914" duration="2255000" />
       <workItem from="1598437124656" duration="1018000" />
-      <workItem from="1598515929956" duration="1606000" />
+      <workItem from="1598515929956" duration="2773000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1598154698987</created>
@@ -215,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598265828100</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Upload Files">
+      <created>1598517835722</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598517835722</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +243,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Upload new files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Upload new files" />
+    <MESSAGE value="Upload Files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upload Files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="936" y="245" key="FileChooserDialogImpl" timestamp="1596440602255">
@@ -279,10 +287,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="671" y="149" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1595335244233" />
-    <state x="577" y="316" key="Vcs.Push.Dialog.v2" timestamp="1598265828997">
+    <state x="577" y="316" key="Vcs.Push.Dialog.v2" timestamp="1598517836861">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="577" y="316" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1598265828997" />
+    <state x="577" y="316" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1598517836861" />
     <state x="822" y="371" key="git4idea.merge.GitPullDialog" timestamp="1598265153675">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
