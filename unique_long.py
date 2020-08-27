@@ -8,3 +8,4 @@ def unique_long_word(wlist, wlen):
 
 if __name__ == '__main__':
     print(unique_long_word(["yes","no","ng"],1))
+    print(unique_long_word(["yes","yes","ng"],1))
