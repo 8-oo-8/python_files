@@ -11,8 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="863e27cb-60e6-4a8f-b5e2-f3b25e203635" name="Default Changelist" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/ordered_words.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unique_long.py" beforeDir="false" afterPath="$PROJECT_DIR$/unique_long.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Python.unique_long">
+  <component name="RunManager" selected="Python.ordered_words">
     <configuration name="Position" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Files" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,6 +94,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ordered_words" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python Files" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ordered_words.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="range" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Files" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,28 +130,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/range.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python Files" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ordered_words" />
         <item itemvalue="Python.unique_long" />
         <item itemvalue="Python.range" />
         <item itemvalue="Python.for in loop" />
         <item itemvalue="Python.Position" />
-        <item itemvalue="Python.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -195,6 +196,7 @@
       <workItem from="1598437124656" duration="1018000" />
       <workItem from="1598515929956" duration="4138000" />
       <workItem from="1598792182747" duration="670000" />
+      <workItem from="1598970146098" duration="2343000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1598154698987</created>
@@ -269,38 +271,38 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="936" y="245" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1596440602255" />
-    <state width="1602" height="266" key="GridCell.Tab.0.bottom" timestamp="1598540289098">
+    <state width="1602" height="265" key="GridCell.Tab.0.bottom" timestamp="1598972297916">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1602" height="266" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1598540289098" />
-    <state width="1602" height="266" key="GridCell.Tab.0.center" timestamp="1598540289097">
+    <state width="1602" height="265" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1598972297916" />
+    <state width="1602" height="265" key="GridCell.Tab.0.center" timestamp="1598972297916">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1602" height="266" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1598540289097" />
-    <state width="1602" height="266" key="GridCell.Tab.0.left" timestamp="1598540289097">
+    <state width="1602" height="265" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1598972297916" />
+    <state width="1602" height="265" key="GridCell.Tab.0.left" timestamp="1598972297916">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1602" height="266" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1598540289097" />
-    <state width="1602" height="266" key="GridCell.Tab.0.right" timestamp="1598540289098">
+    <state width="1602" height="265" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1598972297916" />
+    <state width="1602" height="265" key="GridCell.Tab.0.right" timestamp="1598972297916">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1602" height="266" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1598540289098" />
-    <state width="1382" height="330" key="GridCell.Tab.1.bottom" timestamp="1598271220802">
+    <state width="1602" height="265" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1598972297916" />
+    <state width="1602" height="357" key="GridCell.Tab.1.bottom" timestamp="1598971951329">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1382" height="330" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1598271220802" />
-    <state width="1382" height="330" key="GridCell.Tab.1.center" timestamp="1598271220802">
+    <state width="1602" height="357" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1598971951329" />
+    <state width="1602" height="357" key="GridCell.Tab.1.center" timestamp="1598971951329">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1382" height="330" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1598271220802" />
-    <state width="1382" height="330" key="GridCell.Tab.1.left" timestamp="1598271220802">
+    <state width="1602" height="357" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1598971951329" />
+    <state width="1602" height="357" key="GridCell.Tab.1.left" timestamp="1598971951329">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1382" height="330" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1598271220802" />
-    <state width="1382" height="330" key="GridCell.Tab.1.right" timestamp="1598271220802">
+    <state width="1602" height="357" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1598971951329" />
+    <state width="1602" height="357" key="GridCell.Tab.1.right" timestamp="1598971951329">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1382" height="330" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1598271220802" />
+    <state width="1602" height="357" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1598971951329" />
     <state x="671" y="149" key="SettingsEditor" timestamp="1595335244233">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -323,5 +325,6 @@
     <SUITE FILE_PATH="coverage/Python_Files$Position.coverage" NAME="Position Coverage Results" MODIFIED="1598264950074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Files$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1598154485558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Files$for_in_loop.coverage" NAME="for in loop Coverage Results" MODIFIED="1598437212689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Files$ordered_words.coverage" NAME="ordered_words Coverage Results" MODIFIED="1598972297909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
