@@ -11,8 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="863e27cb-60e6-4a8f-b5e2-f3b25e203635" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/ordered_words.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dictionaryTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordCount.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,10 +47,11 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Python.ordered_words">
-    <configuration name="Position" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.dictionaryTest">
+    <configuration name="dictionaryTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Files" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,33 +60,11 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Position.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="for in loop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python Files" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/for in loop.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dictionaryTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,13 +139,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="wordCount" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python Files" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wordCount.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dictionaryTest" />
+        <item itemvalue="Python.wordCount" />
         <item itemvalue="Python.ordered_words" />
         <item itemvalue="Python.unique_long" />
         <item itemvalue="Python.range" />
-        <item itemvalue="Python.for in loop" />
-        <item itemvalue="Python.Position" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +197,12 @@
       <workItem from="1598437124656" duration="1018000" />
       <workItem from="1598515929956" duration="4138000" />
       <workItem from="1598792182747" duration="670000" />
-      <workItem from="1598970146098" duration="2343000" />
+      <workItem from="1598970146098" duration="2530000" />
+      <workItem from="1599025379575" duration="1204000" />
+      <workItem from="1599048330640" duration="5992000" />
+      <workItem from="1599055061941" duration="666000" />
+      <workItem from="1599062259619" duration="668000" />
+      <workItem from="1599313633862" duration="2248000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1598154698987</created>
@@ -240,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598522720074</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Sorted word list">
+      <created>1598972654348</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598972654348</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,53 +277,54 @@
     <MESSAGE value="Upload Files" />
     <MESSAGE value="Upload New Files" />
     <MESSAGE value="Update Files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Files" />
+    <MESSAGE value="Sorted word list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sorted word list" />
   </component>
   <component name="WindowStateProjectService">
     <state x="936" y="245" key="FileChooserDialogImpl" timestamp="1596440602255">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="936" y="245" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1596440602255" />
-    <state width="1602" height="265" key="GridCell.Tab.0.bottom" timestamp="1598972297916">
+    <state width="1602" height="226" key="GridCell.Tab.0.bottom" timestamp="1599316033109">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1602" height="265" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1598972297916" />
-    <state width="1602" height="265" key="GridCell.Tab.0.center" timestamp="1598972297916">
+    <state width="1602" height="226" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1599316033109" />
+    <state width="1602" height="226" key="GridCell.Tab.0.center" timestamp="1599316033109">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1602" height="265" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1598972297916" />
-    <state width="1602" height="265" key="GridCell.Tab.0.left" timestamp="1598972297916">
+    <state width="1602" height="226" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1599316033109" />
+    <state width="1602" height="226" key="GridCell.Tab.0.left" timestamp="1599316033109">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1602" height="265" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1598972297916" />
-    <state width="1602" height="265" key="GridCell.Tab.0.right" timestamp="1598972297916">
+    <state width="1602" height="226" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1599316033109" />
+    <state width="1602" height="226" key="GridCell.Tab.0.right" timestamp="1599316033109">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1602" height="265" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1598972297916" />
-    <state width="1602" height="357" key="GridCell.Tab.1.bottom" timestamp="1598971951329">
+    <state width="1602" height="226" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1599316033109" />
+    <state width="1602" height="357" key="GridCell.Tab.1.bottom" timestamp="1599054919726">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1602" height="357" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1598971951329" />
-    <state width="1602" height="357" key="GridCell.Tab.1.center" timestamp="1598971951329">
+    <state width="1602" height="357" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1599054919726" />
+    <state width="1602" height="357" key="GridCell.Tab.1.center" timestamp="1599054919726">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1602" height="357" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1598971951329" />
-    <state width="1602" height="357" key="GridCell.Tab.1.left" timestamp="1598971951329">
+    <state width="1602" height="357" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1599054919726" />
+    <state width="1602" height="357" key="GridCell.Tab.1.left" timestamp="1599054919726">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1602" height="357" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1598971951329" />
-    <state width="1602" height="357" key="GridCell.Tab.1.right" timestamp="1598971951329">
+    <state width="1602" height="357" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1599054919726" />
+    <state width="1602" height="357" key="GridCell.Tab.1.right" timestamp="1599054919726">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1602" height="357" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1598971951329" />
+    <state width="1602" height="357" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1599054919726" />
     <state x="671" y="149" key="SettingsEditor" timestamp="1595335244233">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="671" y="149" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1595335244233" />
-    <state x="577" y="316" key="Vcs.Push.Dialog.v2" timestamp="1598522720967">
+    <state x="577" y="316" key="Vcs.Push.Dialog.v2" timestamp="1598972656001">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="577" y="316" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1598522720967" />
+    <state x="577" y="316" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1598972656001" />
     <state x="822" y="371" key="git4idea.merge.GitPullDialog" timestamp="1598265153675">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -321,10 +335,12 @@
     <SUITE FILE_PATH="coverage/Python_Files$range.coverage" NAME="range Coverage Results" MODIFIED="1598517648067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Files$test.coverage" NAME="test Coverage Results" MODIFIED="1596529448999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Files$unique_long.coverage" NAME="unique_long Coverage Results" MODIFIED="1598522708196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Files$wordCount.coverage" NAME="wordCount Coverage Results" MODIFIED="1599055716333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Files$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1598073240860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Files$Position.coverage" NAME="Position Coverage Results" MODIFIED="1598264950074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Files$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1598154485558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Files$for_in_loop.coverage" NAME="for in loop Coverage Results" MODIFIED="1598437212689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_Files$ordered_words.coverage" NAME="ordered_words Coverage Results" MODIFIED="1598972297909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Files$ordered_words.coverage" NAME="ordered_words Coverage Results" MODIFIED="1598972641649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Files$dictionaryTest.coverage" NAME="dictionaryTest Coverage Results" MODIFIED="1599315597552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
