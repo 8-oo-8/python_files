@@ -1,16 +1,21 @@
+# Enable the usage of *combinations* function in below
 from itertools import combinations
 
 def exhaustive_search_exhaustive(capacity,bookings):
     tem = []
+    # Extract number of guests from each booking
     for ele in bookings:
         tem.append(ele[1])
     res = []
+    # Find all possible combinations of guest numbers
     for i in range(1,len(tem) + 1):
         res += list(combinations(tem, i))
     optimizaion = 0
+    # Filter the largest possible number of guests under the required condition
     for ele in res:
         if sum(ele) > optimizaion and sum(ele) <= capacity:
             optimizaion = sum(ele)
+
     return optimizaion             
                 
 

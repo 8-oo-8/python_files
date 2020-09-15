@@ -1,13 +1,19 @@
 def biggest_spend_first(capacity, bookings):
+    # Initialize counter objects
     accS = 0
     countC = 0
+    # Sort the booking list in the reversed order by the 3rd term in each tuple,
+    # so that higher spend boookings come first
     bookings.sort(key = lambda x : x[2], reverse = True)
+    # Filter each booking: 1) number of people doesn't exceed capacity,
+    #  2) add spend to accumulator
     for ele in bookings:
         if countC + ele[1] > capacity:
             continue
         else:
             countC += ele[1]
             accS += ele[2]
+            
     return accS        
 
 if __name__ == '__main__':
