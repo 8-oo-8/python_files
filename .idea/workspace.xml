@@ -11,6 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="863e27cb-60e6-4a8f-b5e2-f3b25e203635" name="Default Changelist" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="55376706-b578-450b-8e78-b13c2f96890b" />
   <component name="ProjectId" id="1ezphwqHMSPKcova4M70KlicNri" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,7 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/Applications/Anaconda3/python.exe" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -169,6 +172,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -202,6 +206,7 @@
       <workItem from="1599062259619" duration="668000" />
       <workItem from="1599313633862" duration="2248000" />
       <workItem from="1599984017936" duration="541000" />
+      <workItem from="1600225796392" duration="1423000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1598154698987</created>
@@ -256,7 +261,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -280,10 +285,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Sorted word list" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="936" y="245" key="FileChooserDialogImpl" timestamp="1596440602255">
+    <state x="936" y="245" key="FileChooserDialogImpl" timestamp="1600227054950">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="936" y="245" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1596440602255" />
+    <state x="936" y="245" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1600227054950" />
     <state width="1602" height="357" key="GridCell.Tab.0.bottom" timestamp="1599984559061">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
