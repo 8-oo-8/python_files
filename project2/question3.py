@@ -1,4 +1,4 @@
-def eve_shortest_path(start_pos, goal_pos, n):
+def eve_shortest_path(start_pos, goal_pos, matrix):
     positions = [(0, -1), (1, -1), (1, 0), (1, 1), (0, 1), (-1, 1), (-1, 0), (-1, -1)]
     node = start_pos
     unexplored = [node]
@@ -24,10 +24,10 @@ def eve_shortest_path(start_pos, goal_pos, n):
                             node = key
                 score = 0
                 for position in route:
-                    score += n[position[1]][position[0]]
+                    score += matrix[position[1]][position[0]]
                 return route, score
             # Adding children to unexplored queue
-            if 0 <= child[0] < len(n[0]) and 0 <= child[1] < len(n) and child not in explored:
+            if 0 <= child[0] < len(matrix[0]) and 0 <= child[1] < len(matrix) and child not in explored:
                 unexplored.append(child)
                 movements[node].append(child)
                 explored.add(child)
