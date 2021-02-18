@@ -25,7 +25,7 @@ def eve_shortest_path(start_pos, goal_pos, n):
                 score = 0
                 for position in route:
                     score += n[position[1]][position[0]]
-                return (route, score)
+                return route, score
             # Adding children to unexplored queue
             if 0 <= child[0] < len(n[0]) and 0 <= child[1] < len(n) and child not in explored:
                 unexplored.append(child)
