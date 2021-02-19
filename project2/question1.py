@@ -11,14 +11,14 @@ def road_to_freedom(current_pos, goal_pos, matrix):
             next_score = matrix[next_pos[1]][next_pos[0]]
             next_distance = abs(goal_pos[0] - next_pos[0]) + abs(goal_pos[1] - next_pos[1])
             heuristic = next_score - 100 * next_distance
-            if heuristic not in list(heuristics.keys()):
+            if heuristic not in heuristics.keys():
                 heuristics[heuristic] = next_pos
             else:
                 previous_distance = abs(heuristics[heuristic][0] - goal_pos[0]) + abs(
                     heuristics[heuristic][1] - goal_pos[1])
                 if previous_distance > next_distance:
                     heuristics[heuristic] = next_pos
-    highest_score = max(list(heuristics.keys()))
+    highest_score = max(heuristics.keys())
     return heuristics[highest_score]
 
 

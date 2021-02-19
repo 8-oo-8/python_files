@@ -18,7 +18,7 @@ def eve_shortest_path(start_pos, goal_pos, matrix):
                 route.append(node)
                 route.append(child)
                 while start_pos not in route:
-                    for key in list(movements.keys()):
+                    for key in movements.keys():
                         if node in movements[key]:
                             route.insert(0, key)
                             node = key
