@@ -13,24 +13,25 @@ def eve_shortest_path(start_pos, goal_pos, matrix):
 
         for index in range(0, len(positions)):
             child = (node[0] + positions[index][0], node[1] + positions[index][1])
-            # Goal Found
-            if child == goal_pos:
-                route.append(node)
-                route.append(child)
-                while start_pos not in route:
-                    for key in movements.keys():
-                        if node in movements[key]:
-                            route.insert(0, key)
-                            node = key
-                score = 0
-                for position in route:
-                    score += matrix[position[1]][position[0]]
-                return route, score
-            # Adding children to unexplored queue
-            if 0 <= child[0] < len(matrix[0]) and 0 <= child[1] < len(matrix) and child not in explored:
-                unexplored.append(child)
-                movements[node].append(child)
-                explored.add(child)
+            if 0 <= child[0] < len(matrix[0]) and 0 <= child[1] < len(matrix):
+                # Goal Found
+                if child == goal_pos:
+                    route.append(node)
+                    route.append(child)
+                    while start_pos not in route:
+                        for key in movements.keys():
+                            if node in movements[key]:
+                                route.insert(0, key)
+                                node = key
+                    score = 0
+                    for position in route:
+                        score += matrix[position[1]][position[0]]
+                    return route, score
+                # Adding children to unexplored queue
+                if child not in explored:
+                    unexplored.append(child)
+                    movements[node].append(child)
+                    explored.add(child)
 
 
 if __name__ == '__main__':
