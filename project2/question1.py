@@ -1,7 +1,7 @@
 def road_to_freedom(current_pos, goal_pos, matrix):
     heuristics = {}
     positions = [(0, -1), (1, -1), (1, 0), (1, 1), (0, 1), (-1, 1), (-1, 0), (-1, -1)]
-    for index in range(0, len(positions)):
+    for index in range(len(positions)):
         i = positions[index][0]
         j = positions[index][1]
         new_x = current_pos[0] + i

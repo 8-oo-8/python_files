@@ -11,7 +11,7 @@ def eve_shortest_path(start_pos, goal_pos, matrix):
         explored.add(node)
         movements[node] = []
 
-        for index in range(0, len(positions)):
+        for index in range(len(positions)):
             child = (node[0] + positions[index][0], node[1] + positions[index][1])
             if 0 <= child[0] < len(matrix[0]) and 0 <= child[1] < len(matrix):
                 # Goal Found
