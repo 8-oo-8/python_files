@@ -26,7 +26,7 @@ def potential_contacts(person_a, person_b):
                     contact_loc.add((entryA[1], entryA[2], start_hr, start_min, end_hr, end_min))
 
     if len(contact_loc) == 0:
-        meeting_time = (0, 0)
+        return contact_loc, (0, 0)
     else:
         hours = 0
         minutes = 0
@@ -39,9 +39,7 @@ def potential_contacts(person_a, person_b):
             else:
                 hours += meet[4] - meet[2] - 1
                 minutes += 60 - (meet[3] - meet[5])
-        meeting_time = hours, minutes
-
-    return contact_loc, meeting_time
+        return contact_loc, (hours, minutes)
 
 if __name__ == '__main__':
     print(potential_contacts([('Russel', 'Foodigm', 2, 9, 0, 10, 0), ('Russel', 'Afforage', 2, 10, 0, 11, 30),
