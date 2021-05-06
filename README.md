@@ -1,1 +1,1 @@
-This repo records the process of python self-studying
+This repo records the process of python learning
